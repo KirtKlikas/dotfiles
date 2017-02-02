@@ -1,7 +1,7 @@
 dotfiles
 ========
 
-A collection of my dotfiles & configurations mostly based off of [Evan Hahn's dotfiles](https://github.com/EvanHahn/dotfiles/)
+A collection of my dotfiles & configurations mostly based off of [Kyle DeTella's dotfiles](https://github.com/kyledetella/dotfiles/)
 
 ## Setup
 
