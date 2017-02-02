@@ -1,0 +1,35 @@
+# If not running interactively, don't do anything
+[ -z "$PS1" ] && return
+
+# nvm
+source ~/.nvm/nvm.sh
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+export PATH=$PATH:~/bin
+export GOPATH=$HOME/go
+export ANDROID_HOME=/usr/local/opt/android-sdk
+# add rabbitmq binaries to your PATH
+export PATH=$PATH:/usr/local/sbin
+
+# add go binaries to your PATH
+export PATH=$PATH:$GOPATH/bin
+
+source "$HOME/.zsh/exports.zsh"
+
+source "$HOME/.zsh/aliases.zsh"
+
+source "$HOME/.bash/prompt"
+
+source "$HOME/.functions"
+
+# if [[ "$(uname -s)" = 'Linux' ]]; then
+#   source "$HOME/.zsh/debian.zsh"
+# elif [[ "$(uname -s)" = 'Darwin' ]]; then
+#   source "$HOME/.zsh/osx.zsh"
+# fi
+# source ~/.zshrc
+
+if [[ -e "$HOME/.bashrc_local" ]]; then
+  source "$HOME/.bashrc_local"
+fi
