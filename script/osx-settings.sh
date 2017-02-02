@@ -39,14 +39,6 @@ defaults write com.apple.BezelServices kDimTime -int 60
 # don't automatically adjust brightness
 defaults write com.apple.BezelServices 'dAuto' -bool false
 
-# never resume
-# defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false
-# defaults write com.apple.loginwindow TALLogoutSavesState -bool false
-# defaults write com.apple.loginwindow LoginwindowLaunchesRelaunchApps -bool false
-
-# don't disable inactive apps
-# defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
-
 # keyboard and mouse
 # ------------------
 
